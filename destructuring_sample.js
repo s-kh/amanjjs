@@ -31,3 +31,7 @@ console.log("thiredVar : ", thiredVar);
 
 let [firstFriend, ...otherFriends] = friends;
 console.log("firstFriend : ", firstFriend, " - otherFriends : ", otherFriends);
+
+//example
+let [myName, myLastname] = "sanaz khamisi".split(" ");
+console.log("myName : ", myName, " - myLastname : ", myLastname);
